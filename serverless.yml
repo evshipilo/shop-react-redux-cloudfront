@@ -19,7 +19,7 @@ plugins:
 
 custom:
   client:
-    bucketName: my-store-app
+    bucketName: react-shop-app
     distributionFolder: dist
   s3BucketName: ${self:custom.client.bucketName}
 
