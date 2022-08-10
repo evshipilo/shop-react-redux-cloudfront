@@ -5,40 +5,40 @@ import { AvailableProduct, Product } from "~/models/Product";
 
 export const products: Product[] = [
   {
-    description: "Short Product Description1",
+    description: "SUP-Board Gladiator Lite",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
-    price: 24,
-    title: "ProductOne",
+    price: 500,
+    title: "Gladiator Lite",
   },
   {
-    description: "Short Product Description7",
+    description: "SUP-Board Gladiator Pro",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
-    price: 15,
-    title: "ProductTitle",
+    price: 750,
+    title: "Gladiator Pro",
   },
   {
-    description: "Short Product Description2",
+    description: "SUP-Board Gladiator Elite",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80a3",
-    price: 23,
-    title: "Product",
+    price: 1000,
+    title: "Gladiator Elite",
   },
   {
-    description: "Short Product Description4",
+    description: "SUP-Board Shark Lite",
     id: "7567ec4b-b10c-48c5-9345-fc73348a80a1",
-    price: 15,
-    title: "ProductTest",
+    price: 590,
+    title: "Shark Lite",
   },
   {
-    description: "Short Product Descriptio1",
+    description: "SUP-Board Shark Pro",
     id: "7567ec4b-b10c-48c5-9445-fc73c48a80a2",
-    price: 23,
-    title: "Product2",
+    price: 800,
+    title: "Shark Pro",
   },
   {
-    description: "Short Product Description7",
+    description: "SUP-Board Shark Elite",
     id: "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
-    price: 15,
-    title: "ProductName",
+    price: 1150,
+    title: "Shark Elite",
   },
 ];
 
