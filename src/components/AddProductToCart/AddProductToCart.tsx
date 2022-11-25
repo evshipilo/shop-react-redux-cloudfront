@@ -14,9 +14,11 @@ export default function AddProductToCart({ product }: AddProductToCartProps) {
   const { data = [], isFetching } = useCart();
   const { mutate: upsertCart } = useUpsertCart();
   const invalidateCart = useInvalidateCart();
+  console.log("AddProductToCart data product.id", data, product.id);
   const cartItem = data.find((i) => i.product.id === product.id);
 
   const addProduct = () => {
+    console.log("addProduct product, cartItem", product, cartItem);
     upsertCart(
       { product, count: cartItem ? cartItem.count + 1 : 1 },
       { onSuccess: invalidateCart }
